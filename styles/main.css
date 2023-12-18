@@ -1,0 +1,54 @@
+/* main css */
+main {
+    width:1151px; margin:0 auto;
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+}
+/* 메인베너 */
+main #bnr_left {width:770px; position:relative;}
+main #bnr_left img {}
+main #bnr_left .close {
+    background-color:#1e6cb3; color:#fff;
+    font-size:0.813rem;
+    padding:5px 9px;
+    border:none; border-radius:3px;
+    display:inline-block;
+    position:absolute; right:15px; bottom:15px;
+}
+/* 오른쪽 배너 */
+main #bnr_right {width:360px;}
+/* 오른쪽 배너 위 */
+main #bnr_right .bnr_top {position:relative; display:block;}
+main #bnr_right .bnr_top img {}
+main #bnr_right .bnr_top .data {
+    font-size:0.8125rem;
+    display:inline-block;
+    position:absolute; right:20px; top:14px;
+}
+main #bnr_right .bnr_top .corona {}
+main #bnr_right .bnr_top .corona span {
+    color:#fff; text-align:center;
+}
+main #bnr_right .bnr_top .corona span:nth-child(1) {
+    position:absolute; left:29px; top:82px;
+    width:140px;
+}
+main #bnr_right .bnr_top .corona span:nth-child(2) {
+    position:absolute; right:29px; top:82px;
+    width:140px;
+}
+main #bnr_right .bnr_top .corona span:nth-child(3) {
+    position:absolute; left:30px; bottom:57px;
+    width:94px;
+}
+main #bnr_right .bnr_top .corona span:nth-child(4) {
+    position:absolute; right:118px; bottom:57px;
+    width:94px;
+}
+main #bnr_right .bnr_top .corona span:nth-child(5) {
+    position:absolute; right:33px; bottom:57px;
+    width:59px;
+}
+/* 오른쪽 배너 아래 */
+main #bnr_right .bnr_bottom {margin-top:7px;}
+main #bnr_right .bnr_bottom img {}
