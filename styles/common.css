@@ -1,0 +1,63 @@
+/* header css */
+header {}
+/* header top */
+header .header_top {
+    width:1151px; height:48px;
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 auto;
+}
+header .header_top nav {}
+header .header_top nav a {margin-right:16px;}
+header .header_top nav a:last-child {margin-right:0;}
+header .header_top nav a img {}
+header .header_top .header_right {}
+header .header_top .header_right a {margin-left:16px;}
+header .header_top .header_right a:first-child {margin-left:0;}
+/* header bottom */
+header .header_bottom {
+    width:1151px; height:119px; margin:0 auto;
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .header_bottom a {}
+header .header_bottom a img {}
+header .header_bottom #search_frm {}
+header .header_bottom #search_frm fieldset {
+    background-color:#fff;
+    width:370px; height:47px;
+    border:4px solid #1e6cb3;
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center; padding:0 13px 0 21px;
+
+}
+header .header_bottom #search_frm fieldset .user_search {border:none; outline:none; color:#1e6cb3; width:300px;}
+header .header_bottom #search_frm fieldset #search_btn {border:none; width:24px; height:24px;}
+header .header_bottom #search_frm fieldset #search_btn img {}
+header .header_bottom .right {}
+header .header_bottom .right #lang_frm {
+    display:flex; flex-flow:row nowrap;
+    justify-content:right;
+}
+header .header_bottom .right #lang_frm fieldset {border:none;}
+header .header_bottom .right #lang_frm fieldset #user_lang {
+    background-color:#fff;
+    width:98px; height:28px; margin-right:7px;
+    border:1px solid #1e6cb3; font-size:0.8125rem;
+}
+header .header_bottom .right #lang_frm fieldset #user_lang option {}
+header .header_bottom .right #lang_frm fieldset #go_btn {
+    background-color:#1e6cb3;
+    color:#fff;
+    width:28px; height:28px;
+    font-size:0.8125rem;
+    border:none;
+}
+header .header_bottom .right .weather {}
+header .header_bottom .right .weather p:first-child {
+    font-size: 1.5rem; font-weight:700; padding:5px 0;
+}
+header .header_bottom .right .weather p {font-size:0.8125rem;}
